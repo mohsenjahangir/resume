@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.myname:hover{
+  zoom: 1.02;
+}
 body{
   background-color: lightblue;
   display: flex;

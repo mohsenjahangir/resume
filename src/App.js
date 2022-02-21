@@ -11,7 +11,7 @@ const App = () => {
             <div className="imageBox">
               <img src="Screenshot_20220119-233311_Instagram.jpg" alt="" />
             </div>
-            <h2>
+            <h2 className="myname">
               MOHSENJAHANGIRI <br />
               <span>web Developer</span>
             </h2>
