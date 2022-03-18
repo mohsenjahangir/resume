@@ -9,7 +9,7 @@ const App = () => {
         <div className="left-side">
           <div className="profile-text">
             <div className="imageBox">
-              <img src="Screenshot_20220119-233311_Instagram.jpg" alt="" />
+              <img src="IMG_20220317_190431_971.jpg" alt="" />
             </div>
             <h2 className="myname">
               MOHSENJAHANGIRI <br />
@@ -25,19 +25,19 @@ const App = () => {
                 <span className="icon">
                   <i className="fa fa-yahoo" aria-hidden="true"></i>
                 </span>
-                <span className="text">moh7seven@yahoo.com</span>
+                <span className="text">Moh7seven@yahoo.com</span>
               </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-github" aria-hidden="true"></i>
                 </span>
-                <span className="text">MOHSENJAHANGIR</span>
+                <span className="text">Mohsenjahangir</span>
               </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                 </span>
-                <span className="text">mohsenjahangir</span>
+                <span className="text">Mohsenjahangir</span>
               </li>
               <li>
                 <span className="icon">
@@ -66,21 +66,21 @@ const App = () => {
             </div>
             <ul>
               <li>
-                <span className="text">english</span>
+                <span className="text">ENGLSH</span>
                 <span className="percent">
-                  <div style={{width: "97%"}}></div>
+                  {/* <div style={{width: "97%"}}></div> */}
                 </span>
               </li>
               <li>
-                <span className="text">farsi</span>
+                <span className="text">FARSI</span>
                 <span className="percent">
-                  <div style={{width: "100%"}}></div>
+                  {/* <div style={{width: "100%"}}></div> */}
                 </span>
               </li>
               <li>
-                <span className="text">turkish</span>
+                <span className="text">TURKISH</span>
                 <span className="percent">
-                  <div style={{width: "80%"}} ></div>
+                  {/* <div style={{width: "80%"}} ></div> */}
                 </span>
               </li>
             </ul>
@@ -100,8 +100,15 @@ const App = () => {
               valuable team member{" "}
             </p>
           </div>
+          <div className="about">
+            <h2 className="title2">experience</h2>
+            <p>
+              Nothing yet.<br/>I am looking forward for first position
+            </p>
+          </div>
 
           <div className="about skills">
+            <div className="skillsright">
             <h2 className="title2">professional skills</h2>
             <div className="box">
               <h4>HTML</h4>
@@ -122,7 +129,7 @@ const App = () => {
               </div>
             </div>
             <div className="box">
-              <h4>react</h4>
+              <h4>react-js</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
               </div>
@@ -133,22 +140,31 @@ const App = () => {
                 <div style={{width: "100%"}}></div>
               </div>
             </div>
+            </div>
+            <div className="skillsleft">
+            <div className="box">
+              <h4>Redux-JS</h4>
+            </div>
+            <div className="box">
+              <h4>next-js</h4>
+            </div>
+            </div>
           </div>
           <div className="about interest">
             <h2 className="title2">interest</h2>
             <ul>
               <li>
-                <i className="fa fa-book" aria-hidden="true"></i>reading
+                <i className="fa fa-book" aria-hidden="true"></i>Reading
               </li>
               <li>
-                <i className="fa fa-suitcase" aria-hidden="true"></i>travelling
+                <i className="fa fa-suitcase" aria-hidden="true"></i>Travelling
               </li>
               <li>
-                <i className="fa fa-safari" aria-hidden="true"></i>safari
+                <i className="fa fa-safari" aria-hidden="true"></i>Safari
               </li>
               <li>
                 <i className="fa fa-internet-explorer" aria-hidden="true"></i>
-                exploring
+                Exploring
               </li>
             </ul>
           </div>
