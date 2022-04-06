@@ -105,6 +105,7 @@ const App = () => {
             <p>
                <a href="https://calculator-mohsen.vercel.app/">Calculator!</a><br/><br/><a href="https://online-shop-khaki.vercel.app/">Oline-shop!</a>
                <br/><br/><a href="https://mohsen-weather.netlify.app">Weather!</a><br/><br/><a href="https://mohsen-resume.netlify.app">CV!</a>
+               <br/><br/><a href="https://effortless-zabaione-df968e.netlify.app">Todo!</a>
             </p>
           </div>
 
