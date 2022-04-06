@@ -104,7 +104,7 @@ const App = () => {
             <h2 className="title2">experience</h2>
             <p>
                <a href="https://calculator-mohsen.vercel.app/">Calculator!</a><br/><br/><a href="https://online-shop-khaki.vercel.app/">Oline-shop!</a>
-               <br/><br/><a href="https://weather-mohsen.vercel.app/">Weather!</a><br/><br/><a href="https://mohsen-resume.netlify.app">CV!</a>
+               <br/><br/><a href="https://mohsen-resume.netlify.app">Weather!</a><br/><br/><a href="https://mohsen-resume.netlify.app">CV!</a>
             </p>
           </div>
 
