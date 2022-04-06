@@ -56,6 +56,7 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 .profile-text h2{
   color: #fff;
@@ -67,11 +68,15 @@ body{
   line-height: 1.4em;
 }
 .profile-text h2 span{
-  font-size: 0.8em;
-  font-weight: 300;
+  font-size: 0.7em;
+  font-weight: 9900;
 }
 .contact-info{
   padding-top: 40px;
+}
+.email{
+  font-size: 0.7em;
+  font-weight: 9900;
 }
 .contact-info .title{
   color: #fff;

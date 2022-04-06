@@ -13,7 +13,7 @@ const App = () => {
             </div>
             <h2 className="myname">
               MOHSENJAHANGIRI <br />
-              <span>web Developer</span>
+              <span>front-end developer react js</span>
             </h2>
           </div>
           <div className="contact-info">
@@ -25,25 +25,25 @@ const App = () => {
                 <span className="icon">
                   <i className="fa fa-yahoo" aria-hidden="true"></i>
                 </span>
-                <span className="text">Moh7seven@yahoo.com</span>
+                <span className="text">Moh7seven@yahoo.com</span><a className="email" href = "mailto: moh7seven@yahoo.com">  Send-E</a>
               </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-github" aria-hidden="true"></i>
                 </span>
-                <span className="text">Mohsenjahangir</span>
+                <span className="text">Mohsenjahangir</span><a href="https://github.com/mohsenjahangir"> Click here</a>
               </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                 </span>
-                <span className="text">Mohsenjahangir</span>
+                <span className="text">Mohsenjahangir</span> <a href="https://www.linkedin.com/in/mohsenjahangir/"> Click here</a>
               </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-phone" aria-hidden="true"></i>
                 </span>
-                <span className="text">+98 936 435 85 06</span>
+                <span className="text">+98 936 435 85 06</span><a href="tel:+989364358506"> Call me</a>
               </li>
             </ul>
           </div>
@@ -104,7 +104,8 @@ const App = () => {
             <h2 className="title2">experience</h2>
             <p>
                <a href="https://calculator-mohsen.vercel.app/">Calculator!</a><br/><br/><a href="https://online-shop-khaki.vercel.app/">Oline-shop!</a>
-               <br/><br/><a href="https://mohsen-weather.netlify.app">Weather!</a><br/><br/><a href="https://effortless-zabaione-df968e.netlify.app">Todo!</a>
+               <br/><br/><a href="https://mohsen-weather.netlify.app">Weather!</a>
+               {/* <br/><br/><a href="https://effortless-zabaione-df968e.netlify.app">Todo!</a> */}
                <br/><br/><a href="https://mohsen-resume.netlify.app">CV!</a>
                
             </p>
