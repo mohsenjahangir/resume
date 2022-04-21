@@ -133,6 +133,12 @@ const App = () => {
               </div>
             </div>
             <div className="box">
+              <h4>bootstrapt</h4>
+              <div className="percent2">
+                <div style={{width: "100%"}}></div>
+              </div>
+            </div>
+            <div className="box">
               <h4>react-js</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
