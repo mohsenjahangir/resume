@@ -139,7 +139,7 @@ const App = () => {
               </div>
             </div>
             <div className="box">
-              <h4>photoshop</h4>
+              <h4>Git</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
               </div>
@@ -147,10 +147,10 @@ const App = () => {
             </div>
             <div className="skillsleft">
             <div className="box">
-              <h4>Redux-JS</h4>
+              <h4>Tailwind CSS</h4>
             </div>
             <div className="box">
-              <h4>next-js</h4>
+              <h4>api</h4>
             </div>
             </div>
           </div>
