@@ -103,7 +103,8 @@ const App = () => {
           <div className="about">
             <h2 className="title2">experience</h2>
             <p>
-               <a href="https://calculator-mohsen.vercel.app/">Calculator!</a><br/><br/><a href="https://online-shop-khaki.vercel.app/">Oline-shop!</a>
+               <a href="https://effulgent-melba-f55a35.netlify.app/">Multi-apps!</a><br/><br/>
+               <a href="https://calculator-mohsen.vercel.app/">Calculator!</a>
                <br/><br/><a href="https://mohsen-weather.netlify.app">Weather!</a>
                {/* <br/><br/><a href="https://effortless-zabaione-df968e.netlify.app">Todo!</a> */}
                <br/><br/><a href="https://mohsen-resume.netlify.app">CV!</a>
@@ -152,12 +153,12 @@ const App = () => {
             </div>
             </div>
             <div className="skillsleft">
-            <div className="box">
+            {/* <div className="box">
               <h4>Tailwind CSS</h4>
             </div>
             <div className="box">
               <h4>api</h4>
-            </div>
+            </div> */}
             </div>
           </div>
           <div className="about interest">

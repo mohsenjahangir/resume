@@ -26,9 +26,10 @@ body{
   box-shadow: 0 35px 55px rgba(0, 0, 0,0.1);
 }
 .container .left-side{
+  
   position: relative;
   padding: 40px;
-  background-color: #4682B4;
+  background-color: #ffffff;
 }
 .container .right-side{
   position: relative;
@@ -45,9 +46,11 @@ body{
 }
 .profile-text .imageBox{
   position: relative;
+  
+  border-radius:50px 100px ;
   width: 200px;
   height: 200px;
-  border-radius:23px;
+  
   overflow: hidden;
 }
 .profile-text .imageBox img{
@@ -59,7 +62,7 @@ body{
   object-fit: contain;
 }
 .profile-text h2{
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 1.2rem;
   text-transform: uppercase;
   margin-top: 20px;
@@ -79,16 +82,18 @@ body{
   font-weight: 9900;
 }
 .contact-info .title{
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
 .contact-info ul{
+  color: black;
   position: relative;
 }
 .contact-info ul li{
+  color: black;
   list-style: none;
   position: relative;
   margin: 10px 0;
@@ -101,7 +106,7 @@ body{
   color: 	#DD3131;
 }
 .contact-info ul li span{
-  color: #fff;
+  color: rgb(10, 10, 10);
   font-weight: 300px;
 }
 .contact-info.education li{
@@ -113,11 +118,11 @@ body{
   font-weight: 500px;
 }
 .contact-info.education h4:nth-child(2){
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 500;
 }
 .contact-info.contact-info.education h4{
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 300;
 }
 /* .percent{
@@ -218,6 +223,7 @@ p{
   font-size: 18px;
   margin-right: 10px;
 }
+
 @media(max-width:1000px){
   .container{
       margin: 10px;
