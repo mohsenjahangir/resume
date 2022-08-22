@@ -103,8 +103,8 @@ const App = () => {
           <div className="about">
             <h2 className="title2">experience</h2>
             <p>
-               <a href="https://effulgent-melba-f55a35.netlify.app/">Multi-apps!</a><br/><br/>
-               <a href="https://calculator-mohsen.vercel.app/">Calculator!</a>
+               <a href="https://multiapps-mohsen.vercel.app/">Multi-apps!</a><br/><br/>
+               <a href="https://calculator-mohsen.netlify.app/">Calculator!</a>
                <br/><br/><a href="https://mohsen-weather.netlify.app">Weather!</a>
                {/* <br/><br/><a href="https://effortless-zabaione-df968e.netlify.app">Todo!</a> */}
                <br/><br/><a href="https://mohsen-resume.netlify.app">CV!</a>
