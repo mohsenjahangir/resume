@@ -146,6 +146,12 @@ const App = () => {
               </div>
             </div>
             <div className="box">
+              <h4>API</h4>
+              <div className="percent2">
+                <div style={{width: "100%"}}></div>
+              </div>
+            </div>
+            <div className="box">
               <h4>Git</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
