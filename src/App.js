@@ -122,7 +122,7 @@ const App = () => {
               </div>
             </div>
             <div className="box">
-              <h4>css</h4>
+              <h4>css/Tailwind</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
               </div>
@@ -134,13 +134,13 @@ const App = () => {
               </div>
             </div>
             <div className="box">
-              <h4>bootstrapt</h4>
+              <h4>React-JS</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
               </div>
             </div>
             <div className="box">
-              <h4>react-js</h4>
+              <h4>bootstrapt</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
               </div>
