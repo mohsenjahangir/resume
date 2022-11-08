@@ -1,15 +1,23 @@
 import React from "react";
-
+import { Helmet } from "react-helmet";
 import "./App.css";
 
 const App = () => {
   return (
     <>
+    <div className="application">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Resume</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
+            ...
+        </div>
       <div className="container">
         <div className="left-side">
           <div className="profile-text">
             <div className="imageBox">
-              <img src="IMG_20220317_190431_971.jpg" alt="" />
+              <img src="mohsen.jpg" alt="" />
             </div>
             <h2 className="myname">
               MOHSENJAHANGIRI <br />
