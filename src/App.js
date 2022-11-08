@@ -17,7 +17,7 @@ const App = () => {
         <div className="left-side">
           <div className="profile-text">
             <div className="imageBox">
-              <img src="mohsen.jpg" alt="" />
+              <img src="mohsen.png" alt="" />
             </div>
             <h2 className="myname">
               MOHSENJAHANGIRI <br />
