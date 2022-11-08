@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "mohsen.png",
+      "src": "cv2.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "cv2.png",
+      "src": "mohsen.png",
       "type": "image/png",
       "sizes": "512x512"
     }
