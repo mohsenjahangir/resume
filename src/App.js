@@ -96,16 +96,9 @@ const App = () => {
         </div>
         <div className="right-side">
           <div className="about">
-            <h2 className="title2">profile</h2>
+            <h2 className="title2">summary</h2>
             <p>
-              Hardworking and enthusiatic frontend developer at React/javascript
-              .
-              <br />
-              Seeking to use my superior knowledge of programming and my
-              advanced communication skills to effectively serve your company in
-              an internship position .<br />
-              dedicated ,hardworking and committed to become a dependable and
-              valuable team member{" "}
+            Creative and versatile Front-end Developer leveraging JavaScript to build responsive websites,interactive features,managing complex e-commerce sites and internal frameworks that drive business growth and improve UX
             </p>
           </div>
           <div className="about">
@@ -148,6 +141,12 @@ const App = () => {
               </div>
             </div>
             <div className="box">
+              <h4>Next-JS</h4>
+              <div className="percent2">
+                <div style={{width: "100%"}}></div>
+              </div>
+            </div>
+            <div className="box">
               <h4>bootstrapt</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
@@ -155,6 +154,12 @@ const App = () => {
             </div>
             <div className="box">
               <h4>API</h4>
+              <div className="percent2">
+                <div style={{width: "100%"}}></div>
+              </div>
+            </div>
+            <div className="box">
+              <h4>QraphQL</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
               </div>

@@ -103,7 +103,7 @@ body{
   display: inline-block;
   width: 30px;
   font-size: 18px;
-  color: 	#DD3131;
+  color: 	#6f6b6b;
 }
 .contact-info ul li span{
   color: rgb(10, 10, 10);
@@ -114,7 +114,7 @@ body{
   text-transform: capitalize;
 }
 .contact-info.education h5{
-  color:#DD3131;
+  color:#020202;
   font-weight: 500px;
 }
 .contact-info.education h4:nth-child(2){
@@ -219,7 +219,7 @@ p{
   margin: 10px 0;
 }
 .interest ul li .fa{
-  color: #03a9f4;
+  color: #000000;
   font-size: 18px;
   margin-right: 10px;
 }
