@@ -62,7 +62,7 @@ const App = () => {
             </div>
             <ul>
               <li>
-                <h5>2019-present</h5>
+                <h5>2019-2022</h5>
                 <h4>law student</h4>
                 <h4>payam noor univercity</h4>
               </li>
@@ -98,13 +98,12 @@ const App = () => {
           <div className="about">
             <h2 className="title2">summary</h2>
             <p>
-            Creative and versatile Front-end Developer leveraging JavaScript to build responsive websites,interactive features,managing complex e-commerce sites and internal frameworks that drive business growth and improve UX
+            Creative and versatile Front-end Developer leveraging JavaScript to build responsive websites,interactive features,managing complex e-commerce sites and internal frameworks that drive business growth
             </p>
           </div>
           <div className="about">
             <h2 className="title2">experience</h2>
             <p>
-               <a href="https://multiapps-mohsen.vercel.app/">Multi-apps!</a><br/><br/>
                <a href="https://calculator-mohsen.netlify.app/">Calculator!</a>
                <br/><br/><a href="https://mohsen-weather.netlify.app">Weather!</a>
                {/* <br/><br/><a href="https://effortless-zabaione-df968e.netlify.app">Todo!</a> */}
@@ -129,11 +128,29 @@ const App = () => {
               </div>
             </div>
             <div className="box">
+              <h4>bootstrapt</h4>
+              <div className="percent2">
+                <div style={{width: "100%"}}></div>
+              </div>
+            </div>
+            <div className="box">
+              <h4>responsivedesign</h4>
+              <div className="percent2">
+                <div style={{width: "100%"}}></div>
+              </div>
+            </div>
+            <div className="box">
               <h4>javascript</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
               </div>
             </div>
+            {/* <div className="box">
+              <h4>typescript</h4>
+              <div className="percent2">
+                <div style={{width: "100%"}}></div>
+              </div>
+            </div> */}
             <div className="box">
               <h4>React-JS</h4>
               <div className="percent2">
@@ -146,12 +163,24 @@ const App = () => {
                 <div style={{width: "100%"}}></div>
               </div>
             </div>
-            <div className="box">
-              <h4>bootstrapt</h4>
+            {/* <div className="box">
+              <h4>redux</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
               </div>
             </div>
+            <div className="box">
+              <h4>redux-saga</h4>
+              <div className="percent2">
+                <div style={{width: "100%"}}></div>
+              </div>
+            </div>
+            <div className="box">
+              <h4>redux-thunk</h4>
+              <div className="percent2">
+                <div style={{width: "100%"}}></div>
+              </div>
+            </div> */}
             <div className="box">
               <h4>API</h4>
               <div className="percent2">
