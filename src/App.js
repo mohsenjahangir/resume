@@ -1,18 +1,20 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.css';
+import { Link } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-    <div className="application">
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>Resume</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
-            ...
-        </div>
+      <div className="application">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Resume</title>
+          <link rel="canonical" href="http://mysite.com/example" />
+        </Helmet>
+        ...
+      </div>
       <div className="container">
         <div className="left-side">
           <div className="profile-text">
@@ -33,25 +35,25 @@ const App = () => {
                 <span className="icon">
                   <i className="fa fa-yahoo" aria-hidden="true"></i>
                 </span>
-                <span className="text">Moh7seven@yahoo.com</span><a className="email" href = "mailto: moh7seven@yahoo.com">  Send-E</a>
+                <span className="text">Moh7seven@yahoo.com</span>
               </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-github" aria-hidden="true"></i>
                 </span>
-                <span className="text">Mohsenjahangir</span><a href="https://github.com/mohsenjahangir"> Click here</a>
+                <span className="text">Mohsenjahangir</span>
               </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                 </span>
-                <span className="text">Mohsenjahangir</span> <a href="https://www.linkedin.com/in/mohsenjahangir/"> Click here</a>
+                <span className="text">Mohsenjahangir</span>
               </li>
               <li>
                 <span className="icon">
                   <i className="fa fa-phone" aria-hidden="true"></i>
                 </span>
-                <span className="text">+98 936 435 85 06</span><a href="tel:+989364358506"> Call me</a>
+                <span className="text">+98 936 435 85 06</span>
               </li>
             </ul>
           </div>
@@ -98,111 +100,96 @@ const App = () => {
           <div className="about">
             <h2 className="title2">summary</h2>
             <p>
-            Creative and versatile Front-end Developer leveraging JavaScript to build responsive websites,interactive features,managing complex e-commerce sites and internal frameworks that drive business growth
+              Creative and versatile Front-end Developer leveraging JavaScript to build responsive websites,interactive features,managing complex e-commerce sites and internal frameworks that drive business growth
             </p>
           </div>
           <div className="about">
             <h2 className="title2">experience</h2>
             <p>
-            <a href="https://online-market-nine.vercel.app/">E-COMMERCE!</a>
-               <a href="https://calculator-mohsen.netlify.app/">Calculator!</a>
-               <br/><br/><a href="https://mohsen-weather.netlify.app">Weather!</a>
-               {/* <br/><br/><a href="https://effortless-zabaione-df968e.netlify.app">Todo!</a> */}
-               <br/><br/><a href="https://mohsen-resume.netlify.app">CV!</a>
-               
+              <a className="btn btn-outline-secondary" href="https://online-market-nine.vercel.app/">E-COMMERCE sample!</a ><br /><br />
+              <a className="btn btn-outline-secondary"  href="https://calculator-mohsen.netlify.app/">Calculator sample!</a >
+              <br /><br /><a className="btn btn-outline-secondary" href="https://mohsen-weather.netlify.app">Weather sample!</a >
             </p>
           </div>
 
           <div className="about skills">
             <div className="skillsright">
-            <h2 className="title2">professional skills</h2>
-            <div className="box">
-              <h4>HTML</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}} ></div>
+              <h2 className="title2">professional skills</h2>
+              <div className="box">
+                <h4>HTML</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }} ></div>
+                </div>
               </div>
-            </div>
-            <div className="box">
-              <h4>css/Tailwind</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
+              <div className="box">
+                <h4>css/Tailwind</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
               </div>
-            </div>
-            <div className="box">
-              <h4>bootstrapt</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
+              <div className="box">
+                <h4>bootstrapt</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
               </div>
-            </div>
-            <div className="box">
-              <h4>responsivedesign</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
+              <div className="box">
+                <h4>responsivedesign</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
               </div>
-            </div>
-            <div className="box">
-              <h4>javascript</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
+              <div className="box">
+                <h4>javascript</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
               </div>
-            </div>
-            {/* <div className="box">
+              {/* <div className="box">
               <h4>typescript</h4>
               <div className="percent2">
                 <div style={{width: "100%"}}></div>
               </div>
             </div> */}
-            <div className="box">
-              <h4>React-JS</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
+              <div className="box">
+                <h4>React-JS</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
               </div>
-            </div>
-            <div className="box">
-              <h4>Next-JS</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
+              <div className="box">
+                <h4>Next-JS</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
               </div>
-            </div>
-            {/* <div className="box">
-              <h4>redux</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
+              {/* <div className="box">
+                <h4>redux</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
+              </div> */}
+              <div className="box">
+                <h4>API</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
               </div>
-            </div>
-            <div className="box">
-              <h4>redux-saga</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
+              <div className="box">
+                <h4>QraphQL</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
               </div>
-            </div>
-            <div className="box">
-              <h4>redux-thunk</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
+              <div className="box">
+                <h4>Git</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
               </div>
-            </div> */}
-            <div className="box">
-              <h4>API</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
-              </div>
-            </div>
-            <div className="box">
-              <h4>QraphQL</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
-              </div>
-            </div>
-            <div className="box">
-              <h4>Git</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
-              </div>
-            </div>
             </div>
             <div className="skillsleft">
-            {/* <div className="box">
+              {/* <div className="box">
               <h4>Tailwind CSS</h4>
             </div>
             <div className="box">
