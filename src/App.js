@@ -76,13 +76,13 @@ const App = () => {
             </div>
             <ul>
               <li>
-                <span className="text">ENGLSH</span>
+                <span className="text">FARSI</span>
                 <span className="percent">
                   {/* <div style={{width: "97%"}}></div> */}
                 </span>
               </li>
               <li>
-                <span className="text">FARSI</span>
+                <span className="text">ENGLISH</span>
                 <span className="percent">
                   {/* <div style={{width: "100%"}}></div> */}
                 </span>
@@ -107,8 +107,8 @@ const App = () => {
             <h2 className="title2">experience</h2>
             <p>
               <a className="btn btn-outline-secondary" href="https://online-market-nine.vercel.app/">E-COMMERCE sample!</a ><br /><br />
-              <a className="btn btn-outline-secondary"  href="https://calculator-mohsen.netlify.app/">Calculator sample!</a >
-              <br /><br /><a className="btn btn-outline-secondary" href="https://mohsen-weather.netlify.app">Weather sample!</a >
+              {/* <a className="btn btn-outline-secondary" href="https://calculator-mohsen.netlify.app/">Calculator sample!</a >
+              <br /><br /><a className="btn btn-outline-secondary" href="https://mohsen-weather.netlify.app">Weather sample!</a > */}
             </p>
           </div>
 
@@ -134,7 +134,7 @@ const App = () => {
                 </div>
               </div>
               <div className="box">
-                <h4>responsivedesign</h4>
+                <h4>responsive/design</h4>
                 <div className="percent2">
                   <div style={{ width: "100%" }}></div>
                 </div>
@@ -145,12 +145,12 @@ const App = () => {
                   <div style={{ width: "100%" }}></div>
                 </div>
               </div>
-              {/* <div className="box">
-              <h4>typescript</h4>
-              <div className="percent2">
-                <div style={{width: "100%"}}></div>
+              <div className="box">
+                <h4>typescript</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
               </div>
-            </div> */}
               <div className="box">
                 <h4>React-JS</h4>
                 <div className="percent2">
@@ -163,12 +163,12 @@ const App = () => {
                   <div style={{ width: "100%" }}></div>
                 </div>
               </div>
-              {/* <div className="box">
+              <div className="box">
                 <h4>redux</h4>
                 <div className="percent2">
                   <div style={{ width: "100%" }}></div>
                 </div>
-              </div> */}
+              </div>
               <div className="box">
                 <h4>API</h4>
                 <div className="percent2">
@@ -190,11 +190,11 @@ const App = () => {
             </div>
             <div className="skillsleft">
               {/* <div className="box">
-              <h4>Tailwind CSS</h4>
-            </div>
-            <div className="box">
-              <h4>api</h4>
-            </div> */}
+                <h4>Tailwind CSS</h4>
+              </div> */}
+              {/* <div className="box">
+                <h4>api</h4>
+              </div> */}
             </div>
           </div>
           <div className="about interest">
