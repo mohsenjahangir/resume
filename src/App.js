@@ -109,7 +109,7 @@ const App = () => {
               <h5 className="text-title">Freelance:</h5>
               <a className="btn btn-outline-secondary" href="https://online-market-nine.vercel.app/">E-COMMERCE sample!</a ><br /><br />
               <a className="btn btn-outline-secondary" href="https://calculator-mohsen.netlify.app/">Calculator sample!</a >
-              <br /><br /><a className="btn btn-outline-secondary" href="https://online-market-nine.vercel.app/weather">Weather sample!</a >
+              <br /><br /><a className="btn btn-outline-secondary" href="https://mohsen-weather.netlify.app/">Weather sample!</a >
             </p>
           </div>
 
