@@ -107,7 +107,8 @@ const App = () => {
             <h2 className="title2">experience</h2>
             <p>
               <h5 className="text-title">Freelance:</h5>
-              <a className="btn btn-outline-secondary" href="https://online-market-nine.vercel.app/">E-COMMERCE sample!</a ><br /><br />
+              <a className="btn btn-outline-secondary" href="https://commerce-nextjs-3f9t.vercel.app/">E-COMMERCE (nextjs) sample!</a ><br /><br />
+              <a className="btn btn-outline-secondary" href="https://online-market-nine.vercel.app/">E-COMMERCE (React js) sample!</a ><br /><br />
               <a className="btn btn-outline-secondary" href="https://calculator-mohsen.netlify.app/">Calculator sample!</a >
               <br /><br /><a className="btn btn-outline-secondary" href="https://mohsen-weather.netlify.app/">Weather sample!</a >
             </p>
@@ -124,6 +125,12 @@ const App = () => {
               </div>
               <div className="box">
                 <h4>css/Tailwind</h4>
+                <div className="percent2">
+                  <div style={{ width: "100%" }}></div>
+                </div>
+              </div>
+              <div className="box">
+                <h4>material/Ui</h4>
                 <div className="percent2">
                   <div style={{ width: "100%" }}></div>
                 </div>
