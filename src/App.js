@@ -107,10 +107,9 @@ const App = () => {
             <h2 className="title2">experience</h2>
             <p>
               <h5 className="text-title">Freelance:</h5>
-              <a className="btn btn-outline-secondary" href="https://responsive-e-commerce.vercel.app/">Responsive-E-COMMERCE (nextjs) sample!</a ><br /><br />
-              <a className="btn btn-outline-secondary" href="https://commerce-nextjs-3f9t.vercel.app/">E-COMMERCE (nextjs) sample!</a ><br /><br />
+              <a className="btn btn-outline-secondary" href="https://responsive-e-commerce.vercel.app/">E-COMMERCE (Nextjs,Typescript,Tailwind) sample!</a ><br /><br />
               <a className="btn btn-outline-secondary" href="https://online-market-nine.vercel.app/">E-COMMERCE (React js) sample!</a ><br /><br />
-              <a className="btn btn-outline-secondary" href="https://redux-todo-ecru.vercel.app/">Redux-todo with material-Ui</a ><br /><br />
+              {/* <a className="btn btn-outline-secondary" href="https://redux-todo-ecru.vercel.app/">Redux-todo with material-Ui</a ><br /><br /> */}
               <a className="btn btn-outline-secondary" href="https://calculator-mohsen.netlify.app/">Calculator sample!</a >
               <br /><br /><a className="btn btn-outline-secondary" href="https://mohsen-weather.netlify.app/">Weather sample!</a >
             </p>
